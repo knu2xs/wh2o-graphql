@@ -1,0 +1,27 @@
+name: wh2o-graphql
+
+channels:
+  - esri
+  - conda-forge
+
+dependencies:
+  - arcgis==1.8.2
+  - cookiecutter
+  - jupyterlab
+  - mkdocs
+  - pip
+  - pylint
+  - pytest
+  - python-dotenv
+  - pyyaml
+  - seaborn
+  - shapely
+  - swifter
+  - tqdm
+  - pip:
+    - ipykernel
+    - pyarrow
+    - sgqlc
+    - sphinx
+    - sphinx-autodoc-typehints
+    - sphinx_rtd_theme
